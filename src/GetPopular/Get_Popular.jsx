@@ -31,13 +31,10 @@ const [images,setImages] = useState([]);
       };
 
 return(
-    <div >
-
-    
-    <div className ={s.contenedor}>
+    <div  className = {s.contenedor}>
        {popular.results ? (
        popular.results && popular.results.map((item) => (
-           <div key={item.id} className = {s.card} >
+           <div key={item.id} className={s.card}>
                <div className={s.image}>
                  <img src={`http://image.tmdb.org/t/p/w500/${item.poster_path}`}/>
                 </div>
@@ -60,6 +57,6 @@ return(
 
        </div> */}
     </div>
-    </div>
+    
 )
 };

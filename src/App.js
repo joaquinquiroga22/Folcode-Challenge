@@ -13,10 +13,10 @@ import Get_Details from "./GetDetails/Get_Details";
 
 function App() {
   return (
-    
     <Router>
       <Nav/>
       <div className={styles.App}>
+      
         {/* <h1 style= {{textAlign: "center"}}>The Movie JQ</h1> */}
         {/* <div style = {{padding: "20px"}}>
         <Button  variant="contained" color="primary" href = "/product">
