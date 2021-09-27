@@ -13,9 +13,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Landing Pages
 
-<p align='left'>
-    <img width:"50%" src="landingpages2.jpg" </img>
-</p>
+![Landine pages](https://user-images.githubusercontent.com/66262842/134862573-0042ad1c-df91-45cd-addd-586647dd6591.jpg)
 
 ## Detalles
 
