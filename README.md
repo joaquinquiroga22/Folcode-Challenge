@@ -14,7 +14,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 ## Landing Pages
 
 <p align='left'>
-    <img width:"50%" src="blob:https://web.whatsapp.com/1ed2b106-adf9-4557-8627-77170e5f7db7" </img>
+    <img width:"50%" src="landingpages2.jpg" </img>
 </p>
 
 ## Detalles
