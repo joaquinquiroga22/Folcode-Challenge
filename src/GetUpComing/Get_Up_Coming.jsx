@@ -18,10 +18,7 @@ useEffect(() => {
       fetch(" https://api.themoviedb.org/3/movie/upcoming?api_key=03527e2f22454dfccfcedb5e1fbb4e00&language=en-US&page=1")
        .then((res) => res.json())
        .then((data) =>{
-           const Data = {
-               original_title: data.results.original_title,
-               poster_path: data.results.poster_path
-            }
+        
             setUpComing(data)
             console.log(data);
        })

@@ -1,9 +1,247 @@
 
-.img{
+.content{
+    top:0;
+    left:0;
+    background-color: rgba(0,0,0,.8);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 502;
+    
+}
+.overview{
+    padding-top: 20px;
+    margin-top: -30px;
+    height: 50px;
+    
+}
+
+.original_title{
+    padding-top: 10px;
+    margin-top: -5px;
+}
+/* .generos{
+    padding-top: 10px;
+    margin-top: -5px;
+} */
+.txt{
+    width: 100%;
+    padding: 20px;
+    text-align:center;
+
+}
+
+.txt h1{
+  font-size:130%;
+  color: #34495E;
+}
+
+.txt p{
+  margin: 30px 0px;
+}
+.details{
+  text-align: start;
+  margin-top: 50px;
+}
+
+.caja{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color:white;
+    width: 800px;
+    height:658.3px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    border-radius:8px;
+    border: 2px solid #3F55BA;
+}
+.image img{
+    margin-left: 0px;
+    width: 100%;
+    height: 100%;
+  }
+.image{
+    margin-top: 0px;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #3F55BA;
+    
+
+
+}
+/* CSS DE CREDITS */
+
+.contenedor{
+    flex-direction: row;
+    display: flex;
+    
+    justify-content: center;
+    align-content: center;
+    background-color: white;
+    margin: 0PX 10PX;
+    width: 100%;
+    margin-top: 10px;
+} 
+
+.card{
+  border-radius: 5px; 
+  font-family: sans-serif;
+  align-items: center;
+  flex-direction: row;
+  margin: 10px 10px 20px 10px;
+  width: 200px;
+  height: 370px;
+  /* overflow: hidden; */
+  background-color: #fff;
+  text-align: center;
+  position: relative;
+  -webkit-box-shadow: 0px 7px 5px -1px rgba(0,0,0,0.41);
+  -moz-box-shadow: 0px 7px 5px -1px rgba(0,0,0,0.41);
+  box-shadow: 0px 7px 5px -1px rgba(0,0,0,0.41);
+}
+
+.card:hover{
+  width: 120%;
+  height: 93%;
+  z-index: 99;
+  margin-left: -68px;
+  display: absolute;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-bottom: 0;
+  border-radius: 10px;
+  background-color: #AEB6BF;
+}
+.card:hover .images img{
+  width: 100%;
+  height: 150%;
+  z-index: 100;
+  border-radius: 10px;
   
-    filter:brightness(0.6);
 }
-img{
-    align-items: center;
+
+.card:hover .contento{
+  margin-top: 135px;
+  padding: 0;
+  /* opacity: 0; */
+  margin-bottom: 0;
+ font-size: 150%;
+ 
 }
+
+/* Progress Bar */
+
+/* .box .percent{
+  position: relative;
+  width: 150px;
+  height:150px; 
+}
+
+.box .percent svg{
+  position: relative;
+  width: 150px;
+  height:150px; 
+}
+
+.box .percent svg circle{
+  position: relative;
+  width: 150px;
+  height:150px; 
+  fill: none;
+  stroke-width: 10;
+  stroke: #000;
+  transform: translate(5px, 5px);
+  stroke-dasharray: 440;
+  stroke-dashoffset: 440;
+  stroke-linecap: round;
+}
+
+.box .percent svg circle:nth-child(1){
+  stroke-dashoffset: 0;
+  stroke: #f3f3f3;
+}
+
+.box .percent svg circle:nth-child(2){
+  stroke-dashoffset: calc(440 - (440 * 78 ) / 100);
+  stroke: #03a9f4;
+}
+
+
+.box .percent .number{
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #999;
+  font-size: 50px;
+}
+
+.box .percent .number h2{
+  font-size: 48px;
+}
+
+.box .percent .number h2 span{
+  font-size:24px;
+}
+
+.box .text{
+  padding: 10px 0 0;
+  color: #999;
+  font-weight: 700;
+  
+} */
+
+/* ----------------------------------------*/
+.images{
+    width: 100%;
+    height: 250px;
+    /* overflow: hidden; */
+
+  }
+  .images img{
+    width: 100%;
+    height: 100%;
+  }
+  .contento{
+    height: 80px;
+    padding: 10px;
+    font: oblique bold 120% sans-serif;
+  }
+
+
+
+  /*          Responsive          */
+
+
+  @media (max-width: 360px){
+    .caja{
+      display:flex;
+      flex-direction: column;
+      width:100%;
+      margin-top: 55px;
+      height: 100%;
+      background-color: #fff;
+    }
+    .image img{
+        /* margin-top: 50px; */
+      height: 100%;
+    }
+    .image{
+      height:50%;
+    }
+  }
+    /* .image img{
+    
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+      image-rendering: crisp-edges;
+    } */
+  /* buttons */
+
 

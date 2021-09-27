@@ -74,5 +74,11 @@
   @media (max-width: 360px){
     .contenedor{
       grid-template-columns: repeat(1, 230px);
+      
     }
+
+.card:hover{
+      margin-left: -30px;
+    }    
+    
   }
