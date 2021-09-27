@@ -1,4 +1,4 @@
-# Folcode Challenge
+# Folcode Challenge - Joaquin Quiroga
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -11,6 +11,14 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
+## Tecnologías utilizadas :computer: 
+
+* __Javascript__
+* __React__
+* __Hooks__
+* __Material-ui__
+* __FrameWorks__
+
 ## Landing Pages
 
 ![Landine pages](https://user-images.githubusercontent.com/66262842/134862573-0042ad1c-df91-45cd-addd-586647dd6591.jpg)
@@ -18,4 +26,4 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 ## Detalles
 ![Detalles](https://user-images.githubusercontent.com/66262842/134862897-8d37108b-9358-432a-9ee8-b8303216f280.jpg)
 ## Responsive
-
+![Responsive](https://user-images.githubusercontent.com/66262842/134862959-07741cc0-1206-4b7b-83d9-94b3c32037af.jpg)
