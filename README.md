@@ -18,6 +18,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 * __Hooks__
 * __Material-ui__
 * __FrameWorks__
+* __CSS__
+* __HTML__
 
 ## Landing Pages 🚀 
 
