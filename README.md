@@ -13,10 +13,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Landing Pages
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+<p align='left'>
+    <img width:"50%" src="blob:https://web.whatsapp.com/1ed2b106-adf9-4557-8627-77170e5f7db7" </img>
+</p>
 
 ## Detalles
-
 
